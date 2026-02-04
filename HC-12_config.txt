@@ -1,0 +1,7 @@
+Vào AT mode (SET = LOW), mở serial cấu hình cho HC-12 và gửi:
+AT
+AT+FU3
+AT+P8
+AT+B2400      // hoặc AT+B1200 nếu cần bền hơn
+AT+C050       // ví dụ chọn 1 kênh cố định
+AT+RX         // xem lại cấu hình
